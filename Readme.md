@@ -15,11 +15,15 @@
 
 Please check the [TechStack.md](TechStack.md) file for details.
 
+## Status
+
+Under construction
+
 ## Context
 
 We are going to examine the possibilities with Neo4J and GraphQL with the GrandStack framework.
 
-For this we will use fictional characters and fictional stories.
+For this, we will use fictional characters and fictional stories.
 
 ## Writer's notes
 
@@ -44,9 +48,7 @@ cd agents-apollo-server
 
 npm init
 
-npm install apollo-server graphql
-
-npm install rxjs
+npm install apollo-server graphql rxjs --save
 
 ```
 ## References

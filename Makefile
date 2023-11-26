@@ -1,15 +1,17 @@
 SHELL := /bin/bash
 GITHUB_RUN_ID ?=123
 
-b: build-npm
-build-npm:
+b: build-node
+build-node:
 	cd agents-apollo-server && yarn
 	cd agents-grand-stack && yarn
-	cd agents-rest && yarn
-test-npm:
+	#cd agents-rest && yarn
+test-node:
 	cd agents-apollo-server && yarn
 	cd agents-grand-stack && yarn
-	cd agents-rest && yarn
+	#cd agents-rest && yarn
+coverage-node:
+	echo "Nothing is implemented yet.."
 node-update-old:
 	sudo npm cache clean -f
 	sudo npm install -g n

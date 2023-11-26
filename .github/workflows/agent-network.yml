@@ -1,0 +1,27 @@
+name: Agent Network Build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Node Setup
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Build
+      run:  make build-node
+
+    - name: Test
+      run:  make test-node
+
+    - name: Coverage Reports
+      run: make coverage-node
+      env:
+         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
