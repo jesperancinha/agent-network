@@ -11,7 +11,7 @@
     "husky": ">=4",
     "lint-staged": ">=10",
     "prettier": "^2.0.5",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "^8.0.1"
   },
   "scripts": {
     "seedDb": "node scripts/seed.js",
