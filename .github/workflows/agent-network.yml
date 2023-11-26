@@ -20,7 +20,7 @@ jobs:
       run:  make test-node
 
     - name: Coverage Reports
-      run: make coverage-node
+      run: make coverage-nodea
       env:
          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
