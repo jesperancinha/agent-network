@@ -9,7 +9,7 @@
     "grandstack": "^0.1.7",
     "dotenv": "^16.3.1",
     "husky": ">=4",
-    "lint-staged": ">=10",
+    "lint-staged": ">=15",
     "prettier": "^3.1.0",
     "prettier-eslint-cli": "^8.0.1"
   },
