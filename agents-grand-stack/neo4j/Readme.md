@@ -10,14 +10,18 @@ A good tutorial can be found here: https://www.youtube.com/watch?v=rPC71lUhK_I
 
 #### Local setup
 
-1. [Download Neo4j Desktop](https://neo4j.com/download/)
-2. Install and open Neo4j Desktop.
-3. Create a new DB by clicking "New Graph", and clicking "create local graph".
-4. Set password to "letmein" (as suggested by `api/.env`), and click "Create".
-5. Make sure that the default credentials in `api/.env` are used. Leave them as follows: `NEO4J_URI=bolt://localhost:7687 NEO4J_USER=neo4j NEO4J_PASSWORD=letmein`
-6. Click "Manage".
-7. Click "Plugins".
-8. Find "APOC" and click "Install".
-9. Click the "play" button at the top of left the screen, which should start the server. _(screenshot 2)_
+1.  [Download Neo4j Desktop](https://neo4j.com/download/)
+2.  Install and open Neo4j Desktop.
+3.  Create a new DB by clicking "New Graph", and clicking "create local graph".
+4.  Set password to "letmein" (as suggested by `api/.env`), and click "Create".
+5.  Make sure that the default credentials in `api/.env` are used. Leave them as follows: `NEO4J_URI=bolt://localhost:7687 NEO4J_USER=neo4j NEO4J_PASSWORD=letmein`
+6.  Click "Manage".
+7.  Click "Plugins".
+8.  Find "APOC" and click "Install".
+9.  Click the "play" button at the top of left the screen, which should start the server. _(screenshot 2)_
 10. Wait until it says "RUNNING".
 11. Proceed forward with the rest of the tutorial.
+
+## About me
+
+[![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=for-the-badge&logo=github&color=grey "GitHub")](https://github.com/jesperancinha)

@@ -10,3 +10,7 @@ npm run start
 - `build.js` - builds the api and web-react projects
 - `inferSchema.js` - connect to Neo4j and generate inferred GraphQL type definitions, written to `./api/src/schema.graphql`
 - `seed.js` - seeds the database locally from the api directory
+
+## About me
+
+[![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=Jesperancinha&style=for-the-badge&logo=github&color=grey "GitHub")](https://github.com/jesperancinha)
