@@ -7,7 +7,7 @@
     "eslint-plugin-react": "^7.33.2",
     "execa": "^8.0.1",
     "grandstack": "^0.1.7",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.3.2",
     "husky": ">=8",
     "lint-staged": ">=15",
     "prettier": "^3.2.4",
