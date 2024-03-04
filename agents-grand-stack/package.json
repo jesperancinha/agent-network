@@ -4,7 +4,7 @@
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.0",
     "execa": "^8.0.1",
     "grandstack": "^0.1.7",
     "dotenv": "^16.4.5",
