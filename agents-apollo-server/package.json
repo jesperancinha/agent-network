@@ -11,6 +11,6 @@
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.10.0",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.2"
   }
 }
