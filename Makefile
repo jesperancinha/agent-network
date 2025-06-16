@@ -27,8 +27,8 @@ update-npm:
 	npx browserslist;\
 	ncu -u;\
 	yarn
-deps-cypress-update:
-	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/cypressUpdateOne.sh | bash
+deps-node-update:
+	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/nodeUpdatesOne.sh
 deps-plugins-update:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/pluginUpdatesOne.sh | bash -s -- $(PARAMS)
 deps-update: update-npm
@@ -36,7 +36,7 @@ deps-java-update:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/javaUpdatesOne.sh | bash
 deps-gradle-update:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/gradleUpdatesOne.sh | bash
-deps-quick-update: deps-cypress-update deps-plugins-update deps-java-update deps-gradle-update
+deps-quick-update: deps-plugins-update deps-java-update deps-gradle-update deps-node-update
 update-repo-prs:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/update-all-repo-prs.sh | bash
 accept-prs:
