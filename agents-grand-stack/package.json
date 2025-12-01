@@ -5,7 +5,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "eslint-plugin-react": "^7.37.5",
-    "execa": "^9.6.0",
+    "execa": "^9.6.1",
     "grandstack": "^0.1.7",
     "dotenv": "^17.2.3",
     "husky": ">=9",
