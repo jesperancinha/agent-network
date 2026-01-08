@@ -4,9 +4,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/agents-grand-stack"
     schedule:
-      interval: "daily"
+      interval: "yearly"
 
   - package-ecosystem: "npm"
     directory: "/agents-apollo-server"
     schedule:
-      interval: "daily"
+      interval: "yearly"
